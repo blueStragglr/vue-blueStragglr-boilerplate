@@ -5,16 +5,20 @@ import Subpage from '../views/Subpage'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
-    name: 'main',
+    name: 'Main',
     component: Main
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/subpage',
+    name: 'Subpage',
     component: Subpage
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
 ]
 
