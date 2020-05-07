@@ -1,0 +1,12 @@
+{
+  "name": "sample-server",
+  "version": "1.0.0",
+  "description": "Sample login server for vuex login session demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "token": "node tokenSample.js"
+  },
+  "author": "blueStragglr",
+  "license": "MIT"
+}
