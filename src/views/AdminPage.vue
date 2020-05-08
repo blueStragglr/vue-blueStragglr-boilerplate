@@ -1,12 +1,13 @@
 <template>
   <div>
-    for everyone :)
+    Only for admin!
+    User info: {{this.$store.state.userInfo}}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Subpage'
+  name: 'AdminPage'
 }
 </script>
 
